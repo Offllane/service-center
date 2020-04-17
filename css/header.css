@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  height: 105px;
+}
+
+.logo-with-text {
+  display: flex;
+  max-width: 100px;
+  height: 36px;
+}
+
+.logo-img {
+  height: 36px;
+}
+
+.logo-text {
+  width: 57px;
+  height: 36px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.search-input {
+  border-radius: 2px;
+  background-image: url(../img/home.svg);
+  background-repeat: no-repeat;
+  background-position: left 11px center;
+  padding-left: 35px;
+  border: 1px solid #d9d9d9;
+  flex: 0.8;
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  border-radius: 2px;
+  border:none;
+  background: #1890FF;
+  color: #fff;
+  width:96px;
+  height: 40px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.basket-button {
+  border-radius: 2px;
+  border:none;
+  min-width:96px;
+  height: 40px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.car-image {
+  width:30px;
+}
