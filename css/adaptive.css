@@ -2,6 +2,9 @@
   .header-buttons {
     margin-right: 10px;
   }
+  .promo{
+    height: 350px;
+  }
   .promo-text {
     padding-left: 30px;
   }
@@ -17,11 +20,13 @@
 @media (max-width: 1024px) {
   .promo {
     flex-direction: column;
-    height: 550px;
+    height:560px;
+    width: 100%;
   }
   .promo-text{
     order:1;
     padding-top:20px;
+    width: 80%;
   }
   .promo-img {
     margin-left: 25%;
@@ -50,13 +55,17 @@
     margin-right: 10px;
   }
   .promo-img {
-    margin-left: 5%;
+    margin-left: 0%;
   }
 }
 
 @media (max-width:600px){
   .promo {
     height: 660px;
+  }
+  .promo-img {
+    width: 370px;
+    margin-left: 10%;
   }
   .section-title {
     margin-bottom: 5px;
@@ -71,6 +80,9 @@
 }
 
 @media (max-width:400px){
+  .promo-img {
+    width: 300px;
+  }
   .card {
     width: 300px;
   }
