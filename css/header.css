@@ -6,6 +6,11 @@
   height: 105px;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
+
 .logo-with-text {
   display: flex;
   max-width: 100px;
