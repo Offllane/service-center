@@ -5,6 +5,9 @@
   .promo{
     height: 350px;
   }
+  .container-for-promo-image {
+    height: 350px;
+  }
   .promo-text {
     padding-left: 30px;
   }
@@ -20,16 +23,18 @@
 @media (max-width: 1024px) {
   .promo {
     flex-direction: column;
-    height:560px;
+    height:580px;
     width: 100%;
   }
   .promo-text{
     order:1;
     padding-top:20px;
-    width: 80%;
+  }
+  .container-for-promo-image {
+    width:100%;
   }
   .promo-img {
-    margin-left: 25%;
+    width: 100%;
   }
 }
 
@@ -37,9 +42,6 @@
 {
   .promo {
     height: 600px;
-  }
-  .promo-img {
-    margin-left: 20%;
   }
 }
 
@@ -54,18 +56,11 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  .promo-img {
-    margin-left: 0%;
-  }
 }
 
 @media (max-width:600px){
   .promo {
     height: 660px;
-  }
-  .promo-img {
-    width: 370px;
-    margin-left: 10%;
   }
   .section-title {
     margin-bottom: 5px;
@@ -80,9 +75,6 @@
 }
 
 @media (max-width:400px){
-  .promo-img {
-    width: 300px;
-  }
   .card {
     width: 300px;
   }

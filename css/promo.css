@@ -3,8 +3,7 @@
   margin-top: 18px;
   max-width: 1200px;
   height: 300px;
-  border: 1px solid black;
-  background: #4B4B4C;
+  background: #FAEBD7
 }
 
 .promo-text {
@@ -19,16 +18,22 @@
   font-weight: bold;
   font-size: 39px;
   line-height: 46px;
-  color: #fff;
+  color: black;
 }
 
 .promo-description {
   font-size: 24px;
   line-height: 28px;
-  color: #fff;
+  color: black;
 }
 
 .promo-img {
-  width: 500px;
-  object-fit:contain;
+  height: 100%;
+  object-fit:cover;
+}
+
+.container-for-promo-image {
+  margin-left: auto;
+  margin-right: 0em;
+  height: 300px;
 }
